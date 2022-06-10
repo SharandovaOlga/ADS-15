@@ -22,6 +22,7 @@ BST<std::string> makeTree(const char* filename) {
     } else {
       if (word != "") {
         tree.add(word);
+        word = "";
       }
     }
   }

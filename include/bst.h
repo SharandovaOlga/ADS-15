@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-template <typemane T>
+template <typename T>
   struct Node {
     Node<T> *left = nullptr;
     Node<T> *right = nullptr;
@@ -13,7 +13,7 @@ template <typemane T>
     T value = "";
   };
 
-template <typemane T>
+template <typename T>
 class BST {
  private:
     Node<T> *root = nullptr;
